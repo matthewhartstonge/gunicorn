@@ -1,6 +1,6 @@
 #! /bin/sh
 # /etc/init.d/gunicorn
-#
+
 ### BEGIN INIT INFO
 # Provides:          gunicorn
 # Required-Start:    $local_fs $network
@@ -10,6 +10,9 @@
 # Short-Description: gunicorn
 # Description:       gunicorn daemon
 ### END INIT INFO
+
+# Written by: Matthew Hartstonge
+# Date Written: 20/09/2014
 
 # Carry out specific functions when asked to by the system
 case "$1" in
